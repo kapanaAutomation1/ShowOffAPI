@@ -1,0 +1,10 @@
+ShowOff API Automation Testing User/widgets CRUD operations
+
+Work-Flow:
+1. Have been created the user by using  create user endpoint
+2.Get the user by using  Show ID endpoint.
+3.ceate the widget on same user 
+4.update the widget.
+5.delete the widget.
+
+
