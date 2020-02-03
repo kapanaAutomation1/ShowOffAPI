@@ -1,0 +1,6 @@
+"widget": {
+		"name": "A Hidden Widget",
+		"description": "Widget 1",
+		"kind": "hidden"
+	}
+}

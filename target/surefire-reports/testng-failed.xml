@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.http.test.POSTAPITest">
+        <methods>
+          <include name="setUp"/>
+          <include name="postAPIMethodTest"/>
+        </methods>
+      </class> <!-- com.http.test.POSTAPITest -->
+      <class name="com.http.test.POSTAPIWidgetTest">
+        <methods>
+          <include name="postAPIMethodTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.http.test.POSTAPIWidgetTest -->
+      <class name="com.http.test.DeleteAPITest">
+        <methods>
+          <include name="DeleteAPIRequest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.http.test.DeleteAPITest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
