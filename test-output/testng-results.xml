@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1129" started-at="2020-02-03T11:45:36 GMT" finished-at="2020-02-03T11:45:38 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1129" started-at="2020-02-03T11:45:36 GMT" finished-at="2020-02-03T11:45:38 GMT">
+      <class name="com.http.test.GetAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.http.test.GetAPITest@4f970963]" name="setUp" is-config="true" duration-ms="19" started-at="2020-02-03T11:45:36 GMT" finished-at="2020-02-03T11:45:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getRequestAPIWithHeaders()[pri:0, instance:com.http.test.GetAPITest@4f970963]" name="getRequestAPIWithHeaders" duration-ms="1025" started-at="2020-02-03T11:45:37 GMT" finished-at="2020-02-03T11:45:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestAPIWithHeaders -->
+      </class> <!-- com.http.test.GetAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

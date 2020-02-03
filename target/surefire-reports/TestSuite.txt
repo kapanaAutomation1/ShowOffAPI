@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.759 sec <<< FAILURE!
+DeleteAPIRequest(com.http.test.DeleteAPITest)  Time elapsed: 1.598 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: status code is not 200 expected:<200> but was:<422>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at com.http.test.DeleteAPITest.DeleteAPIRequest(DeleteAPITest.java:56)
+
+postAPIMethodTest(com.http.test.POSTAPITest)  Time elapsed: 0.633 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: status code is not 200 expected:<200> but was:<401>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at com.http.test.POSTAPITest.postAPIMethodTest(POSTAPITest.java:69)
+
+postAPIMethodTest(com.http.test.POSTAPIWidgetTest)  Time elapsed: 0.127 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: status code is not 200 expected:<200> but was:<422>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at com.http.test.POSTAPIWidgetTest.postAPIMethodTest(POSTAPIWidgetTest.java:74)
+
